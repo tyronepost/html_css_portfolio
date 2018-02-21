@@ -1,0 +1,62 @@
+body {
+  padding: 100px;
+}
+
+hr {
+  background-color: #3a6c80;
+  height: 5px;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: #3a6c80;
+}
+
+div.main {
+
+}
+
+div.margin {
+  float: left;
+  margin-right: 100px;
+}
+
+div.margin > p {
+  color: #3a6c80;
+}
+
+div > h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+div.content {
+  margin-top: 5px;
+  float: left;
+}
+
+div.content > p {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.table-header {
+  background-color: #3a6c80;
+  color: white;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+td {
+  border: dotted;
+}
+.description {
+  width: 200px;
+}
+
+/*div > p {*/
+  /*align-content: left;*/
+/*}*/
